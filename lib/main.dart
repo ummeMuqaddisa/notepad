@@ -1,6 +1,8 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:notepad/homepage.dart';
+import 'package:notepad/importantNotes.dart';
+import 'package:notepad/login.dart';
 import 'package:notepad/signup.dart';
 
 import 'firebase_options.dart';
@@ -25,7 +27,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Signup(),
+      home: NotesHomePage(),
     );
   }
 }
