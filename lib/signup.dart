@@ -1,5 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'importantNotes.dart';
+import 'login.dart';
 
 class Signup extends StatefulWidget {
   const Signup({super.key});
@@ -136,6 +138,8 @@ class _SignupState extends State<Signup> {
     borderRadius: BorderRadius.circular(8),
     ),
     ),
+
+
     onPressed: () async {
     try {
     await FirebaseAuth.instance.createUserWithEmailAndPassword(

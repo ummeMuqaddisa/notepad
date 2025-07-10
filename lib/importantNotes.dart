@@ -1,5 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'login.dart';
 
 class NotesHomePage extends StatefulWidget {
   const NotesHomePage({super.key});
@@ -415,7 +416,10 @@ class _NotesHomePageState extends State<NotesHomePage> {
   void _logout() async {
     await FirebaseAuth.instance.signOut();
     if (mounted) {
-      Navigator.of(context).pushReplacementNamed('/login');
+      //Navigator.of(context).pushReplacementNamed('/login');
+      Navigator.of(context).pushReplacement(
+        MaterialPageRoute(builder: (context) => const LoginPage()),
+      );
     }
   }
 
@@ -781,7 +785,7 @@ class _NotesHomePageState extends State<NotesHomePage> {
         ],
       ),
 
-      // Floating Action Button
+
       floatingActionButton: GestureDetector(
         onTap: showAddNoteDialog,
         child: Container(

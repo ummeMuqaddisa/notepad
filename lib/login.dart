@@ -1,5 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'importantNotes.dart';
 import 'signup.dart'; // <-- make sure you import your Signup page!
 
 class LoginPage extends StatefulWidget {
@@ -145,8 +146,14 @@ class _LoginPageState extends State<LoginPage> {
                         ),
                       );
 
-                      // TODO: Navigate to your HomePage or Dashboard
-                    } on FirebaseAuthException catch (e) {
+                      //new line for flow to sign up
+                      Navigator.pushReplacement(
+                        context,
+                        MaterialPageRoute(builder: (context) => const NotesHomePage()),
+                      );
+                      //until this
+                    }
+                    on FirebaseAuthException catch (e) {
                       String errorMessage = 'An error occurred';
 
                       if (e.code == 'user-not-found') {
