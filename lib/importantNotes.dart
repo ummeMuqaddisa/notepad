@@ -16,14 +16,16 @@ class _NotesHomePageState extends State<NotesHomePage> {
 
   List<Note> userNotes = [];
 
+
   // Updated gradient colors to match your purple theme
   final List<LinearGradient> availableGradients = [
     const LinearGradient(colors: [Color(0xFF8F5E8B), Color(0xFF714A6D)]), // Your main purple
     const LinearGradient(colors: [Color(0xFFEFD3F5), Color(0xFFD7C4E2)]), // Your light purple
-    const LinearGradient(colors: [Color(0xFF3B82F6), Color(0xFF1D4ED8)]), // Blue
-    const LinearGradient(colors: [Color(0xFF10B981), Color(0xFF059669)]), // Green
-    const LinearGradient(colors: [Color(0xFFF59E0B), Color(0xFFD97706)]), // Orange
-    const LinearGradient(colors: [Color(0xFFEF4444), Color(0xFFDC2626)]), // Red
+    const LinearGradient(colors: [Color(0xFF7A99D5), Color(0xFF5B76CD)]), // Blue
+    const LinearGradient(colors: [Color(0xFF6DD3B7), Color(0xFF59B19C)]), // Green
+    const LinearGradient(colors: [Color(0xFFE6B868), Color(0xFFCDA251)]), // Orange
+    const LinearGradient(colors: [Color(0xFFE46565), Color(0xFFBF5C5C)]), // Red
+
   ];
 
   List<Note> get filteredNotes {
