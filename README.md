@@ -23,26 +23,18 @@ A lightweight, cross-platform Notepad application built with **Flutter**, design
 
 ---
 
+
+
 ## 🎥 Screenshots
 
-> 
-<img width="370" height="806" alt="01" src="https://github.com/user-attachments/assets/2812c1e6-06a8-49ef-9a9c-8fbbe6c0c774" />
-
-<img width="367" height="807" alt="02" src="https://github.com/user-attachments/assets/3e15c025-ed1c-40e9-93d5-9d05709144f3" />
-
-<img width="372" height="802" alt="03" src="https://github.com/user-attachments/assets/00b1c311-c44a-4370-95af-761a752bcf65" />
-
-<img width="375" height="817" alt="04" src="https://github.com/user-attachments/assets/38958ad6-b5a3-4dbf-aaf1-9916842ff00b" />
-
-<img width="375" height="818" alt="05" src="https://github.com/user-attachments/assets/59a819c3-c13e-400e-9ed7-188469a5b2c3" />
-
 <p align="center">
-  <img src="https://via.placeholder.com/300x600?text=Screenshot+1" width="250" />
-  <img src="https://via.placeholder.com/300x600?text=Screenshot+2" width="250" />
-  <img src="https://via.placeholder.com/300x600?text=Screenshot+3" width="250" />
+  <img width="370" height="806" alt="01" src="https://github.com/user-attachments/assets/2812c1e6-06a8-49ef-9a9c-8fbbe6c0c774" />
+  <img width="367" height="807" alt="02" src="https://github.com/user-attachments/assets/3e15c025-ed1c-40e9-93d5-9d05709144f3" />
+  <img width="372" height="802" alt="03" src="https://github.com/user-attachments/assets/00b1c311-c44a-4370-95af-761a752bcf65" />
+  <img width="375" height="817" alt="04" src="https://github.com/user-attachments/assets/38958ad6-b5a3-4dbf-aaf1-9916842ff00b" />
+  <img width="375" height="818" alt="05" src="https://github.com/user-attachments/assets/59a819c3-c13e-400e-9ed7-188469a5b2c3" />
 </p>
 
----
 
 ## 🚀 Getting Started
 
